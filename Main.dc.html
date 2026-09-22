@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Aleksei Macatuno | Engineering &amp; Design Portfolio</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F1EC;color:#15171A;font-family:"IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#A8440F}a:hover{color:#7A300A}
+img{display:block;max-width:100%}
+</style>
+</helmet>
+
+<div style="width: 100%; background: #F3F1EC; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #15171A;">
+
+<!-- NAV -->
+<div style="position: sticky; top: 0; z-index: 10; background: #15171A; border-bottom: 1px solid #2B2E33;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 24px;">
+<a href="#top" style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.02em; color: #F3F1EC; text-decoration: none;">A. MACATUNO</a>
+<div style="display: flex; gap: 28px; flex-wrap: wrap; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.06em;">
+<a href="#resume" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">RESUME</a>
+<a href="#solar" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">SOLAR CAR</a>
+<a href="#maclean" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">MACLEAN</a>
+<a href="#fsae" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">FSAE</a>
+<a href="#robotics" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">ROBOTICS</a>
+<a href="#aubin" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">AUBIN</a>
+<a href="#projects" style="color: #C9C6BF; text-decoration: none; padding: 12px 0;">PROJECTS</a>
+</div>
+</div>
+</div>
+
+<!-- HERO -->
+<div id="top" style="background: #15171A; color: #F3F1EC;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 104px; display: flex; flex-wrap: wrap; gap: 64px; align-items: center;">
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 28px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; letter-spacing: 0.14em; color: {{accent}};">ENGINEERING &amp; DESIGN PORTFOLIO</div>
+<h1 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 96px; line-height: 0.92; letter-spacing: -0.02em;">Aleksei<br>Macatuno</h1>
+<div style="font-size: 20px; line-height: 1.5; color: #C9C6BF; max-width: 520px;">Bachelor of Science, Engineering Management (Mechanical Focus), University of the Pacific, May 2026</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+<a href="mailto:aemacatuno@gmail.com" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; background: {{accent}}; color: #15171A; font-weight: 600; font-size: 15px; text-decoration: none; border-radius: 4px;">aemacatuno@gmail.com</a>
+<a href="https://linkedin.com/in/aleksei-macatuno" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border: 1px solid #4A4E55; color: #F3F1EC; font-weight: 500; font-size: 15px; text-decoration: none; border-radius: 4px;">LinkedIn</a>
+<a href="#resume" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border: 1px solid #4A4E55; color: #F3F1EC; font-weight: 500; font-size: 15px; text-decoration: none; border-radius: 4px;">View resume</a>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #9C9990; letter-spacing: 0.04em;">Stockton, CA  /  (209) 561-0148</div>
+</div>
+<div style="flex: 1 1 380px; max-width: 460px; position: relative;">
+<div style="position: absolute; top: 18px; left: 18px; right: -18px; bottom: -18px; border: 1px solid {{accent}}; border-radius: 6px;"></div>
+<img src="./assets/a0b74779039f0a2a805ec023511d313f.jpg" alt="Aleksei working in SolidWorks at his desk" style="position: relative; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px;">
+</div>
+</div>
+</div>
+
+<!-- RESUME -->
+<div id="resume" style="max-width: 1200px; margin: 0 auto; padding: 112px 32px 48px;">
+<div style="display: flex; align-items: baseline; gap: 20px; border-bottom: 2px solid #15171A; padding-bottom: 18px; margin-bottom: 48px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">00</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">Resume</h2>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 56px;">
+<div style="flex: 2 1 620px; display: flex; flex-direction: column; gap: 40px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: #50545A;">RELEVANT EXPERIENCE</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; align-items: baseline;">
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 22px;">Mech/CAD Design Team Member at Eclipse Robotics</h3>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A;">VexU Robotics Team, 2026 – Present</span>
+</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.55; color: #2A2D31;">
+<li>Optimized loading arm mechanism by modifying existing designs to a modular one, decreasing repair time by 30 minutes and identified cost-saving measures to minimize packaging footprint</li>
+<li>Performed topography studies and detailed stress studies on the match loader arm to reduce weight by 60%, increase durability, and improved manufacturability</li>
+<li>Team received innovation award for modular design and drivetrain design</li>
+<li>Executed root cause analysis on mechanical failures during testing, to ensure competition-ready reliability</li>
+</ul>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; align-items: baseline;">
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 22px;">Founder and Project Manager for the Pacific Solar Car Project</h3>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A;">University of the Pacific, 2021 – 2025</span>
+</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.55; color: #2A2D31;">
+<li>Established and organized team roles, responsibilities, and cross functional tasks for the vehicle’s systems</li>
+<li>Set up logistics for the club, acquired sponsors, and created onboarding processes for new members</li>
+<li>Created Gantt charts, managed sub-teams’ progresses, goals, and timelines</li>
+<li>Conducted dynamic vehicle tests and collected data to maximize car performance with Matlab and Excel</li>
+<li>Facilitated communication between all sub-teams, settled design and interpersonal disputes</li>
+<li>Improved method for solar cell encapsulation to assist electrical subteam and reduced costs by $10,000</li>
+<li>Designed lightweight aluminum rims to fit the specs of the current braking and upright system</li>
+</ul>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; align-items: baseline;">
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 22px;">Associate Engineer at MacLean Power Systems</h3>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A;">Engineering CO-OP, 2024</span>
+</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.55; color: #2A2D31;">
+<li>Created test procedure for company products to match industry standard and to ensure product quality</li>
+<li>Performed testing on turn switch assembly to prevent the yielding of bevel washers which was causing thermal errors in certain switches</li>
+<li>Handled the design of customer switchgear and ensured that the clients needs were being met</li>
+<li>Performed engineering change orders (ECO) from the client to match certain specs the client required</li>
+<li>Designed grounding wire routing for overhead switchgear to replace and improve current switches in Lahaina Hawaii</li>
+</ul>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; align-items: baseline;">
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 22px;">Electric Vehicle Development Internship Sch. of Comp. Sci. and Engineering</h3>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A;">Professor Dongbin Lee, 2023</span>
+</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.55; color: #2A2D31;">
+<li>Optimized vehicle uprights and performed various FEA studies on multiple vehicle parts (chassis, uprights, swing arm, and brake mounts)</li>
+<li>Used Solidworks CFD analysis to guide aerodynamic design modifications</li>
+</ul>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; align-items: baseline;">
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 22px;">Aerodynamics Lead for the Formula Society of Automotive Engineers</h3>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A;">University of the Pacific, 2021 – 2022</span>
+</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.55; color: #2A2D31;">
+<li>Designed and analyzed vehicle air foils, nosecone, and body panels with Solidworks 3D, Ansys Fluent for CFD Analysis, and FEA</li>
+<li>Manufactured carbon fiber composites with varying resins using vacuum bagging techniques</li>
+</ul>
+</div>
+</div>
+
+<div style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 24px; align-self: flex-start;">
+<div style="background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: #50545A;">EDUCATION</div>
+<div style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 19px; line-height: 1.3;">Bachelor of Science, Engineering Management (Mechanical Focus)</div>
+<div style="font-size: 15px; color: #50545A;">University of the Pacific, May 2026</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 28px; display: flex; flex-direction: column; gap: 20px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: #50545A;">TECHNICAL SKILLS</div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<div style="font-weight: 600; font-size: 15px;">Computer Aided Design</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;">
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Solidworks 3D</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Fusion360</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">OnShape</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">AutoCad</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Finite Element Analysis</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">ANSYS Workbench</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Figma</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<div style="font-weight: 600; font-size: 15px;">Data Analysis</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;">
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Microsoft Office</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">MatLab</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Mathematica</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<div style="font-weight: 600; font-size: 15px;">Manufacturing</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;">
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Carbon Fiber Composites</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Fiberglass</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">3D printing</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Milling</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Solar Cell Encapsulation</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Cutting and Prepping Metal</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">CNC milling</span>
+<span style="font-size: 13px; padding: 5px 10px; background: #F3F1EC; border-radius: 3px;">Fixture design</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- SOLAR CAR -->
+<div id="solar" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 72px;">
+<div style="display: flex; flex-direction: column; gap: 14px; border-bottom: 2px solid #15171A; padding-bottom: 18px;">
+<div style="display: flex; align-items: baseline; gap: 20px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">01</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">Pacific Solar Car Project</h2>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A; padding-left: 40px;">Founder and Project Manager  /  University of the Pacific, 2021 – 2025</div>
+</div>
+
+<!-- chassis FEA -->
+<div style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-wrap: wrap; gap: 24px 64px;">
+<h3 style="flex: 1 1 320px; margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15;">Pacific Solar Car Chassis Structural Analysis</h3>
+<p style="flex: 2 1 520px; margin: 0; font-size: 18px; line-height: 1.65; color: #2A2D31;">The purpose of these FEA case studies was to analyze how the chassis would perform in the event of a collision. I performed Nodal FEA on this chassis to simulate the welds on our existing chassis. Because if this, I was able to prove that our vehicle would be capable of survive impact conditions listed in our regulations.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1 1 480px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px;">
+<img src="./assets/c1a7f39caf4f4f1e4193e234731223fa.jpg" alt="FEA: Gen1 solar chassis, front crash study" style="width: 100%;">
+</div>
+<div style="flex: 1 1 480px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px;">
+<img src="./assets/64612713e0c5b32e759269393324663d.jpg" alt="FEA: Gen1 solar chassis, rear study" style="width: 100%;">
+</div>
+</div>
+</div>
+
+<!-- tabs & knuckle -->
+<div style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-wrap: wrap; gap: 24px 64px;">
+<h3 style="flex: 1 1 320px; margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15;">Case studies I performed on tabs and the steering knuckle for pacific solar car project.</h3>
+<p style="flex: 2 1 520px; margin: 0; font-size: 18px; line-height: 1.65; color: #2A2D31;">So the reason why I performed an FEA analysis on these components was because they are critical suspension components. In our car, these components bear the most load, so their factor of safety and their ability to handle sudden change in load is much more critical during general use.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1 1 320px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px; display: flex; align-items: center;">
+<img src="./assets/9b43767fa2c5c7267303b8edf68fc1ce.jpg" alt="FEA: suspension tabs, von Mises stress" style="width: 100%;">
+</div>
+<div style="flex: 1 1 320px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px; display: flex; align-items: center;">
+<img src="./assets/8c8264afaec2fd3c57d96a1eb37ca3ea.jpg" alt="FEA: mount tab study, von Mises stress" style="width: 100%;">
+</div>
+<div style="flex: 1 1 320px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px; display: flex; align-items: center;">
+<img src="./assets/50145a67d91e0e6fd677ce0e25874aef.jpg" alt="FEA: spindle and knuckle, von Mises stress" style="width: 100%;">
+</div>
+</div>
+</div>
+
+<!-- CAD render -->
+<div style="background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; overflow: hidden;">
+<img src="./assets/0ec67888bbde8590462eb11efaa8bc08.jpg" alt="CAD render of the solar car chassis with driver model" style="width: 100%;">
+</div>
+
+<!-- encapsulation -->
+<div style="display: flex; flex-wrap: wrap; gap: 32px;">
+<div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 16px;">
+<img src="./assets/d852a3e2320481eac4a179ea10b969dd.jpg" alt="Encapsulation bed in use" style="width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px;">
+<p style="margin: 0; font-size: 17px; line-height: 1.55; color: #2A2D31;">Pacific Solar Car custom made encapsulation bed that I helped design and acquire parts for.</p>
+</div>
+<div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 16px;">
+<img src="./assets/a01dbec93b10bc2942e9624d8d830f0c.jpg" alt="New heat-bed cells compared with old oven cells" style="width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px;">
+<p style="margin: 0; font-size: 17px; line-height: 1.55; color: #2A2D31;">Results of the new cells (made with the heat bed) vs the old cells (made with an oven)</p>
+</div>
+</div>
+
+<!-- Yakatiac -->
+<div style="background: #15171A; color: #F3F1EC; border-radius: 8px; padding: 56px; display: flex; flex-direction: column; gap: 40px;">
+<div style="display: flex; flex-wrap: wrap; gap: 24px 64px;">
+<div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 12px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: {{accent}};">THE CAR</div>
+<div style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 56px; line-height: 1;">Yakatiac</div>
+</div>
+<p style="flex: 2 1 520px; margin: 0; font-size: 18px; line-height: 1.7; color: #DAD7D0;">This is the 1<sup>st</sup> generation prototype of Yakatiac! The Pacific Solar Car Project’s and San Joaquin Vallley’s first ever solar car. I started the club in early 2022 and we were able to get our first model running in just 2 years and was sent to competition in 2024 20% complete but running, only to be completed to 80% by the end of that week. However there would be many changes we would make throughout the years of our team’s existence. We would go back to compete in 2025 where we passed every technical inspection despite countless hurdles with the sole exception of the dynamics test (it had closed just before we were ready for it). The car still hasn’t made it to the official FSGP track despite it running for the last 2 years. This summer in 2026 we are ready to finally make it onto the track and perform well at the race! We firmly believe that we can be a top contender at this year’s competition!</p>
+</div>
+<img src="./assets/f04121872cb1c65e54198a232714e35f.jpg" alt="The team with Yakatiac at FSGP 2025" style="width: 100%; border-radius: 6px;">
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: center;">
+<p style="flex: 1 1 300px; margin: 0; font-size: 18px; line-height: 1.65; color: #DAD7D0;">This is an image of Yakatiac during the 2025 FSGP season. The flags represent each of our member’s national ethnic background (missing the phillipines). This was the best year our team has had so far!</p>
+<img src="./assets/ba82015f3798d6bf643c639ed5a96a01.jpg" alt="Yakatiac decorated with members' flags" style="flex: 2 1 520px; min-width: 0; width: 100%; border-radius: 6px;">
+</div>
+</div>
+
+<!-- test day -->
+<div style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-wrap: wrap; gap: 24px 64px;">
+<div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 10px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; color: #A8440F;">MARCH 28, 2026</div>
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15;">Test day with UC Berkeley CalSol</h3>
+</div>
+<p style="flex: 2 1 520px; margin: 0; font-size: 18px; line-height: 1.65; color: #2A2D31;">This is a collection of images from our most recent test day (March 28, 2026). We had a friendly test track day with UC Berkeley CalSol. It was the largest collaboration between California solar car teams in years. (As of the writing of this there are only 5 active Solar Car teams for California, UOP is the newest and is one of four that is race ready). This test day was a low powered test day for us, just to test the mechancial components before they could be pushed harder.</p>
+</div>
+<img src="./assets/7c19f39996b91eaca032068d92a43d6e.jpg" alt="Group photo of both teams on test day" style="width: 100%; border-radius: 6px;">
+<img src="./assets/c7de51f48837cacd8476baed3b3eb061.jpg" alt="Yakatiac cornering on the test track" style="width: 100%; border-radius: 6px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<img src="./assets/2417000b853d96ff43b8f5d28089a896.jpg" alt="Team member inspecting Yakatiac" style="flex: 1 1 440px; min-width: 0; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px;">
+<img src="./assets/34f1d5d796e7122d8014fcbda4dcd6ea.jpg" alt="Yakatiac alongside the Berkeley car" style="flex: 1 1 440px; min-width: 0; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px;">
+</div>
+</div>
+</div>
+
+<!-- MACLEAN -->
+<div id="maclean" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 56px;">
+<div style="display: flex; flex-direction: column; gap: 14px; border-bottom: 2px solid #15171A; padding-bottom: 18px;">
+<div style="display: flex; align-items: baseline; gap: 20px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">02</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">MacLean Power Systems</h2>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A; padding-left: 40px;">Associate Engineer  /  Engineering CO-OP, 2024</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px 56px; align-items: center;">
+<img src="./assets/6752187dd72f178aae76e66c86949eaf.jpg" alt="Aleksei at the Inertia Engineering sign" style="flex: 3 1 520px; min-width: 0; width: 100%; border-radius: 6px;">
+<p style="flex: 2 1 300px; margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.25;">My time at Inertia Engineering! (Now MacLean Power Systems)</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px;">
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 16px;">
+<img src="./assets/c80b9fd09bde9bd608626bfc177c4dcc.jpg" alt="Workbench with assemblies and test hardware" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px;">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #2A2D31;">Here is a photo of a test stand I created while working at MacLean Power Systems. This was used to perform a vibration test on our vacuum bottles to see analyze how it would perform in different types of weather phenomenon (like earthquakes or high winds).</p>
+</div>
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 16px;">
+<img src="./assets/92dd3f86a0f354f3eabfdd1346828eb0.jpg" alt="Switchgear thermal test setup" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px;">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #2A2D31;">Thermal test I was conducting to see the affects that high levels of electric current had on the yield rates of our belleville washers.</p>
+</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.04em; color: #50545A; border-top: 1px solid #D9D5CC; padding-top: 16px;">[THESE IMAGES ARE NOT PROPRIETARY INFORMATION AND I HAVE BEEN CLEARED TO SHARE]</div>
+</div>
+
+<!-- FSAE -->
+<div id="fsae" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 48px;">
+<div style="display: flex; flex-direction: column; gap: 14px; border-bottom: 2px solid #15171A; padding-bottom: 18px;">
+<div style="display: flex; align-items: baseline; gap: 20px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">03</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">Formula SAE</h2>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A; padding-left: 40px;">Aerodynamics Lead  /  University of the Pacific, 2021 – 2022</div>
+</div>
+<p style="margin: 0; max-width: 820px; font-size: 20px; line-height: 1.65; color: #2A2D31;">In my freshman year of college I was the aerobody lead which meant that I was in charge of designing and manufacturing the nose cone for my school’s FSAE car. This made me well acquainted with the design process for aerodynamic parts and their manufacturing.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch;">
+<img src="./assets/b3f42d936331eb18b8edf6e80bd88b34.jpg" alt="Pacific FSAE car 138 at competition" style="flex: 2 1 420px; min-width: 0; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px;">
+<img src="./assets/3e1ef72cd3fb50a9567db0d9aa0abb41.jpg" alt="Carbon fiber nose cone parts" style="flex: 3 1 420px; min-width: 0; width: 100%; object-fit: cover; border-radius: 6px;">
+</div>
+</div>
+
+<!-- ROBOTICS -->
+<div id="robotics" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 120px; display: flex; flex-direction: column; gap: 56px;">
+<div style="display: flex; flex-direction: column; gap: 14px; border-bottom: 2px solid #15171A; padding-bottom: 18px;">
+<div style="display: flex; align-items: baseline; gap: 20px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">04</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">Robot for Eclipse Robotics team.</h2>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A; padding-left: 40px;">Mech/CAD Design Team Member  /  VexU Robotics Team, 2026 – Present</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px 56px; align-items: center;">
+<p style="flex: 2 1 380px; margin: 0; font-size: 18px; line-height: 1.7; color: #2A2D31;">I worked on the lever arm, cage, and side plate design for this robot, nicknamed Luna. I was also the lead on creating drawings for every component on this robot. (This was because I was the only member on the team that knew and understood GD&amp;T) [THESE IMAGES ARE NOT PROPRIETARY INFORMATION AND I HAVE BEEN CLEARED TO SHARE]</p>
+<div style="flex: 3 1 480px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 24px;">
+<img src="./assets/b8f556e74bc7044262a5751ce65d4ea8.jpg" alt="CAD model of the robot Luna" style="width: 100%;">
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1 1 480px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px;">
+<img src="./assets/042b4af23e420065e2b5b8855c03a721.jpg" alt="Drawing: Goal Guide Pushback, GG-P" style="width: 100%;">
+</div>
+<div style="flex: 1 1 480px; background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px;">
+<img src="./assets/83b782dd21b91f017a518b3fced032d7.jpg" alt="Drawing: Lever Side Panel Pushback, LSP-PB" style="width: 100%;">
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 24px;">
+<p style="margin: 0; max-width: 900px; font-size: 18px; line-height: 1.7; color: #2A2D31;">Finite Element Analysis (FEA) static study performed on our lever arm. Fixtures were placed at the square axle hole and a torque was also applied at the same area (because of the motor’s movement at that point). Gravity was accounted for (seen with the big red arrow) and the load from the game elements were included as well. This analysis was performed to see minimum requirements needed for the lever arm. Our constraints were the torque from motors powering the arm and the load from the game elements. This study proves that our design was enough to withstand loads, however some drawbacks is that this design does not account for infill amount from the actual part. The main purpose of this study was to ensure that the design can survive forces at MAXIMUM infill (aka solid PETG). From here we were able to begin reducing the infill of the part because we knew that the design itself is sound.</p>
+<div style="background: #FFFFFF; border: 1px solid #D9D5CC; border-radius: 6px; padding: 16px;">
+<img src="./assets/4d05fcd5c60a75fb84f6fa755c731b69.jpg" alt="FEA: VEX pushback lever arm displacement" style="width: 100%;">
+</div>
+</div>
+
+<img src="./assets/ef6bcfe9955a52b67a03ffc4e381d773.jpg" alt="Assembling the robot" style="width: 100%; max-width: 560px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px;">
+</div>
+
+<!-- AUBIN -->
+<div id="aubin" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 48px;">
+<div style="display: flex; flex-direction: column; gap: 14px; border-bottom: 2px solid #15171A; padding-bottom: 18px;">
+<div style="display: flex; align-items: baseline; gap: 20px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">05</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">Aubin Industries</h2>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #50545A; padding-left: 40px;">Manufacturing/Design Engineer  /  Current</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 32px 56px; align-items: center;">
+<img src="./assets/50ba80d104d10e485814cbced3458b8e.jpg" alt="SolidWorks CAM toolpath simulation on screen" style="flex: 3 1 520px; min-width: 0; width: 100%; border-radius: 6px;">
+<div style="flex: 2 1 300px; display: flex; flex-direction: column; gap: 20px;">
+<p style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 26px; line-height: 1.3;">CNC machine program I was creating at my current job as a Manufacturing/Design Engineer at Aubin Industries.</p>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.04em; color: #50545A;">[THIS IMAGE DOES NOT CONTAIN PROPRIETARY INFORMATION]</div>
+</div>
+</div>
+</div>
+
+<!-- OTHER PROJECTS -->
+<div id="projects" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 120px; display: flex; flex-direction: column; gap: 64px;">
+<div style="display: flex; align-items: baseline; gap: 20px; border-bottom: 2px solid #15171A; padding-bottom: 18px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #A8440F;">06</span>
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 48px; letter-spacing: -0.01em;">Other Projects</h2>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px 56px; align-items: center;">
+<div style="flex: 2 1 340px; display: flex; flex-direction: column; gap: 14px;">
+<h3 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 34px;">Pektus</h3>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: #2A2D31;">This is Pektus. A bracing device meant to help those with the condition called Pectus Excavatum. In this condition an individual is born with a cavity in their chest aka “sunken chest”. What this brace does is help correct the condition non-surgically and improves upon existing screw designs by repalcing the screws with snowboard style straps. These straps help reduce the potential error a patient might cause when adjusting the position of the brace.</p>
+</div>
+<img src="./assets/aef37bbb0f9b0b345aa0b404fab2a60c.jpg" alt="Pektus chest brace prototype" style="flex: 3 1 480px; min-width: 0; width: 100%; border-radius: 6px;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px;">
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 16px;">
+<img src="./assets/06a268cf92d8ad76e26e05704efbe66b.jpg" alt="CAD of car audio speaker holder for windshield pillars" style="width: 100%; aspect-ratio: 674 / 416; object-fit: cover; border-radius: 6px;">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #2A2D31;">Car audio speaker holder I designed to mount to the windshield pillars of various truck models. Complex surface modeling was done to achieve the curvature needed for precise fitment.</p>
+</div>
+<div style="flex: 1 1 460px; display: flex; flex-direction: column; gap: 16px;">
+<img src="./assets/7a981e1a6ee8364cb54ab6ab129358ad.jpg" alt="CAD of recreated AE86 grill" style="width: 100%; aspect-ratio: 674 / 416; object-fit: cover; border-radius: 6px;">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #2A2D31;">Recreation of an AE86 grill for a family member. It is difficult to see in this image but there is a very slight curve in this grill that I was able to pull off. The difficulty with this part was the manufacturing process, as this needed to be divided in section to be able to print on our 3D printers. Overall good quality and a good replacement for the JDM part as it is no longer being manufactured. Hurray for reverse engineering!</p>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px 56px; align-items: center;">
+<img src="./assets/7e15f0713b38cfb59922b69aa323d1be.jpg" alt="Disassembled camera during repair" style="flex: 3 1 480px; min-width: 0; width: 100%; border-radius: 6px;">
+<p style="flex: 2 1 320px; margin: 0; font-size: 18px; line-height: 1.7; color: #2A2D31;">Camera repair job I was doing for my girlfriend. I was performing root cause analysis (hehe engineering for la novia) to find out why her camera stopped working. Turns out it was the giant capacitor which stopped working.</p>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div style="background: #15171A; color: #F3F1EC;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 72px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 32px;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 40px; line-height: 1;">Aleksei Macatuno</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #9C9990; letter-spacing: 0.04em;">Stockton, CA  /  (209) 561-0148</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+<a href="mailto:aemacatuno@gmail.com" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; background: {{accent}}; color: #15171A; font-weight: 600; font-size: 15px; text-decoration: none; border-radius: 4px;">aemacatuno@gmail.com</a>
+<a href="https://linkedin.com/in/aleksei-macatuno" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border: 1px solid #4A4E55; color: #F3F1EC; font-weight: 500; font-size: 15px; text-decoration: none; border-radius: 4px;">linkedin.com/in/aleksei-macatuno</a>
+</div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F08A3C","options":["#F08A3C","#E8B931","#4FB3BF","#9BD17A"]},"$preview":{"width":1440,"height":8000}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#F08A3C' };
+  }
+}
+</script>
+</body>
+</html>
